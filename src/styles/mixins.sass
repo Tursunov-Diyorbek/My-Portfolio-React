@@ -1,0 +1,10 @@
+@import "../styles/media"
+
+@mixin container
+  max-width: 1400px
+  width: 100%
+  padding: 0 50px
+  margin: auto
+  @media (max-width: $screen-sm)
+    padding: 0 15px
+    width: 90%
